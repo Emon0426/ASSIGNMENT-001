@@ -99,8 +99,6 @@ body {
   border-radius: 12px;
   box-shadow: 0 6px 24px rgba(34, 34, 59, 0.08);
 }
-
-/* Productive Users Section */
 .productive-users-section {
   background: #ececff;
   text-align: center;
@@ -117,6 +115,37 @@ body {
   margin-bottom: 32px;
   color: #22223b;
 }
+
+.stats-row {
+  display: flex;
+  justify-content: center;
+  gap: 64px;
+  margin-top: 16px;
+}
+
+.stat-box {
+  min-width: 140px;
+  background: none;
+  border-radius: 0;
+  box-shadow: none;
+  padding: 0;
+}
+
+.stat-box h2 {
+  font-size: 2.8rem;
+  color: #4f46e5;
+  font-weight: 700;
+  margin-bottom: 8px;
+  line-height: 1;
+}
+
+.stat-box p {
+  color: #4a4e69;
+  font-size: 1rem;
+  margin: 0;
+}
+
+
 
 .start,
 .start-box {
@@ -250,9 +279,10 @@ body {
   justify-content: center;
 }
 .contact-text h1 {
-  font-size: 2.2rem;
-  font-weight: 700;
-  margin-bottom: 24px;
+ font-size: 3rem;
+ font-weight: 700;
+ line-height: 1.1; 
+ margin-bottom: 24px;
   color: #22223b;
 }
 .contact-form {
