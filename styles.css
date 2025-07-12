@@ -70,21 +70,25 @@ body {
   margin-bottom: 24px;
 }
 
-/* See It in Action Section */
+
 .action.section {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  max-width: 1200px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 600px;
   margin: 0 auto;
-  padding: 60px 24px;
-  gap: 40px;
+  padding: 16px 0px;
+  gap: 8px;
+  background: none;
 }
-
+.text-content{
+  text-align: left;
+}
 .text-content h1 {
   font-size: 2rem;
   font-weight: 700;
   margin-bottom: 16px;
+  color: #22223b;
 }
 
 .text-content p {
@@ -93,11 +97,32 @@ body {
   font-size: 1rem;
 }
 
+.button {
+  background: #4f46e5;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.button:hover {
+  background: #3730a3;
+}
+
 .image-content img {
-  max-width: 100%;
+  width: 100%;
+  max-width: 180px;
   height: auto;
   border-radius: 12px;
   box-shadow: 0 6px 24px rgba(34, 34, 59, 0.08);
+}
+
+.text-content, .image-content {
+  flex: 0 0 auto;
 }
 .productive-users-section {
   background: #ececff;
@@ -173,8 +198,6 @@ body {
   font-size: 1rem;
   margin: 0;
 }
-
-/* User Reviews Section */
 .reviews-section {
   padding: 60px 24px;
   text-align: center;
@@ -252,7 +275,6 @@ body {
   color: #9a9a9a;
 }
 
-/* Contact Section */
 .contact-selection {
   display: flex;
   align-items: center;
@@ -336,7 +358,6 @@ body {
   background: #3730a3;
 }
 
-/* Footer Logo Section */
 .footer-logo-section {
   background: #f7f9fc;
   padding: 80px 24px;
