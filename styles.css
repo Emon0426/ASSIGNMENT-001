@@ -14,7 +14,7 @@ body {
 
 /* Navbar & Banner with Background Image */
 .navbar-section {
-  background: url('hero-bg.png') center center/cover no-repeat;
+  background: url('Hero-bg.png') center center/cover no-repeat;
   text-align: center;
   position: relative;
 }
